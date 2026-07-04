@@ -1,16 +1,90 @@
-# React + Vite
+# 🌦️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive weather application built with **React** that fetches real-time weather information using a weather API.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🔍 Search weather by city name
+* 🌡️ Displays current temperature
+* 💧 Humidity information
+* 📱 Responsive design
+* ⚡ Fast and clean user interface
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript (ES6+)
+* CSS
+* Weather API
+* Fetch API
 
-## Expanding the Oxlint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone the repository
+
+```bash
+git clone <https://github.com/indtekina2/weather-app.git>
+```
+
+2. Navigate into the project
+
+```bash
+cd weather-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Create a `.env` file in the project root.
+
+Example:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+5. Start the development server
+
+```bash
+npm run dev
+```
+
+## What I Learned
+
+While building this project, I practiced:
+
+* React components
+* Props
+* State management using `useState`
+* Side effects using `useEffect`
+* API integration with Fetch
+* Handling asynchronous operations
+* Error handling
+* Responsive UI design
+
+## Future Improvements
+
+* Add 5-day weather forecast
+* Search history
+* Dark/Light theme
+* Better error handling
+
+## Folder Structure
+
+```
+src/
+├── components/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Author
+
+**Indtekina**
+
+If you like this project, feel free to star the repository ⭐.
