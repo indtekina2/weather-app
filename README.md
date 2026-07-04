@@ -78,6 +78,7 @@ While building this project, I practiced:
 src/
 ├── components/
 ├── assets/
+├── js/
 ├── App.jsx
 ├── main.jsx
 └── index.css
